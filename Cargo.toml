@@ -1,0 +1,19 @@
+[package]
+name = "shopifyrs"
+version = "0.0.2"
+edition = "2021"
+license = "MIT"
+authors = ["looper <looper@loopercorp.com>"]
+repository = "https://github.com/loopercorp/shopifyrs"
+keywords = ["Shopify"]
+readme = "readme.md"
+description = "Unofficial Rust library for Shopify projects."
+homepage = "https://loopercorp.github.io/shopifyrs"
+documentation = "https://loopercorp.github.io/shopifyrs"
+
+
+[dependencies]
+url = "2.4.1"
+hmac-sha = "0.6"
+sha3 = { version = "0.9", default-features = false }
+hex = "0.4.3"
